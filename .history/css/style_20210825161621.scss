@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: calc(100% - 32px);
+    margin:  0 auto;
+}
+// header
+
+.header {
+    &.header__img {
+        height: 870px;
+        width: auto;
+    }
+}
